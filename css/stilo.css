@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefefe;
+  color: black; }
+
+#wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-bottom: 5px solid #e5e5e5; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+h2, h1 {
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  color: #104954; }
+
+hr {
+  color: #ccc;
+  background-color: #ccc;
+  height: 1px;
+  border: none;
+  width: 70%; }
+
+a {
+  text-decoration: none;
+  color: #38cc85;
+  border-bottom: 1px dotted #38cc85; }
+
+a:hover {
+  border-bottom: 1px solid #104954; }
+
+a:active {
+  color: #104954;
+  border-bottom: 1px solid #104954; }
+
+.fa {
+  width: 32px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px; }
+
+@media screen and (max-width: 768px) {
+  #wrapper {
+    width: 100%; } }
